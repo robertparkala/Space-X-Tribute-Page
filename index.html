@@ -3,42 +3,226 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/a0c4f66859.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script
+      src="https://kit.fontawesome.com/a0c4f66859.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Space X | Tribute Page</title>
   </head>
   <body>
-
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
         <h1 class="logo">Space X</h1>
         <ul class="nav">
-          <li><a href="#home">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#missions">Missions</a></li>
           <li><a href="#facilities">Facilities</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Showcase Photo -->
-    <div class="section-a container">
-        <img class="intro-photo" src="img/spacex2.jpg" alt="">
+    <!-- Quote  -->
+    <div class="ui vertical inverted stripe quote segment">
+      <div class="ui equal width stackable internally celled grid">
+        <div class="center aligned row">
+          <div class="column">
+            <h3>
+              "Persistence is very important. You should not give up unless you
+              are forced to give up." -Elon Musk
+            </h3>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Top Section -->
-    <section class="section-a">
+    <!-- Showcase Photo -->
+    <section class="intro">
       <div class="container">
-        <div>
-            <p> Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation services company. 
-                It was founded in 2002 by Elon Musk with the goal of reducing space transportation costs to enable the colonization of Mars.</p>
-                <p>SpaceX has developed several launch vehicles, the Starlink satellite constellation, the Dragon cargo spacecraft, and flown humans to the International Space Station on the Crew Dragon Demo-2.</p>
-        </div>
-        <img src="img/spacex1.jpg" alt="" />
+        <img class="intro-photo" src="img/spacex2.jpg" alt="" />
       </div>
     </section>
+
+    <!-- Top Section -->
+    <section id="about" class="section-a">
+      <div class="container">
+        <div>
+          <p>
+            Space Exploration Technologies Corp. (SpaceX) is an American
+            aerospace manufacturer and space transportation services company. It
+            was founded in 2002 by Elon Musk with the goal of reducing space
+            transportation costs to enable the colonization of Mars.
+          </p>
+          <p>
+            SpaceX has developed several launch vehicles, the Starlink satellite
+            constellation, the Dragon cargo spacecraft, and flown humans to the
+            International Space Station on the Crew Dragon Demo-2.
+          </p>
+        </div>
+        <img class="section-photo" src="img/spacex1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Quote  -->
+    <div class="ui vertical inverted stripe quote segment">
+      <div class="ui equal width stackable internally celled grid">
+        <div class="center aligned row">
+          <div class="column">
+            <h3>
+              "When something is important enough, you do it even if the odds
+              are not in your favor." -Elon Musk
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Timeline  -->
+    <h2 id="missions" class="ui horizontal divider header topplus50">
+      <i class="star icon"></i>
+      Missions
+    </h2>
+    <ul class="timeline ui container topplus50">
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">SEPTEMBER 2008</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Falcon 1 becomes the first privately developed liquid fuel rocket
+              to reach Earth orbit.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">APRIL 2012</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Dragon becomes the first private spacecraft in history to visit
+              the space station.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">DECEMBER 2015</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              On December 21, 2015, the Falcon 9 rocket delivered 11
+              communications satellites to orbit, and the first stage returned
+              and landed at Landing Zone 1 — the first-ever orbital class rocket
+              landing.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">APRIL 2016</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              On April 8, 2016, the Falcon 9 rocket launched the Dragon
+              spacecraft to the International Space Station, and the first stage
+              returned and landed on the “Of Course I Still Love You” droneship.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">MARCH 2017</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              On March 30, 2017, SpaceX achieved the world’s first reflight of
+              an orbital class rocket. Following delivery of the payload, the
+              Falcon 9 first stage returned to Earth for the second time.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">FEBRUARY 2018</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Falcon Heavy is the world’s most powerful operational rocket by a
+              factor of two, capable of carrying large payloads to orbit and
+              supporting missions as far as the Moon or Mars.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">1934</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Got involved in the Indian theatre and motion pictures, and
+              debuted in a movie based on Girish Chandra's story called 'Bhakta
+              Dhruva'.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">MARCH 2019</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Crew Dragon docked with the International Space Station on March 3
+              at 3:02 a.m. PST, becoming the first American spacecraft to
+              autonomously dock with the orbiting laboratory.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">NOVEMBER 2020</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              SpaceX and NASA are targeting Saturday, November 14 for Falcon 9’s
+              launch of Dragon’s first operational crew mission (Crew-1) to the
+              International Space Station (ISS) from historic Launch Complex 39A
+              (LC-39A) at NASA’s Kennedy Space Center in Florida.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
   </body>
 </html>
-
-
