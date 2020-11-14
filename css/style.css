@@ -126,7 +126,7 @@ img {
   color: var(--secondary-color);
 }
 
-/* Timeline css */
+/* Timeline */
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -276,7 +276,6 @@ img {
 }
 
 /* Facilities */
-
 .facilities-heading {
   display: block;
   text-align: center;
