@@ -303,3 +303,39 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/* Footer */
+.section-footer {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.section-footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-footer h2 {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.section-footer h3 {
+  margin-bottom: 0.7rem;
+}
+
+.section-footer a {
+  margin-left: 2rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.section-footer a:hover {
+  color: #9999;
+}
+
