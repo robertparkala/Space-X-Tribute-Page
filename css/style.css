@@ -2,7 +2,7 @@
   --primary-color: #000000;
   --secondary-color: #ffffff;
   --third-color: #0f4c75;
-  --fourth-color: #1B1C1D;
+  --fourth-color: #1b1c1d;
 }
 
 * {
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: var(--secondary-color);
   font-size: 1.2rem;
@@ -47,6 +47,15 @@ img {
   box-shadow: var(--primary-color) 5px 5px 8px;
 }
 
+/* Main Container */
+.container {
+  max-width: 1300px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+/* Showcase Photo */
 .section-photo {
   width: 100%;
   height: 400px;
@@ -64,11 +73,26 @@ img {
   box-shadow: var(--primary-color) 5px 5px 8px;
 }
 
-.container {
-  max-width: 1300px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 1rem;
+
+/* Showcase Button */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: var(--third-color);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: #3282b8;
 }
 
 /* Navbar */
@@ -308,6 +332,17 @@ img {
   justify-content: center;
 }
 
+.facilities .container h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.facilities .container h2 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
 /* Footer */
 .section-footer {
   background: var(--fourth-color);
@@ -342,4 +377,3 @@ img {
 .section-footer a:hover {
   color: var(--third-color);
 }
-
