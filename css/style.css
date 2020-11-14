@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
   line-height: 1.6;
   color: var(--primary-color);
   font-size: 1.2rem;
@@ -54,7 +54,7 @@ img {
 
 .intro-photo {
   width: 100%;
-  height: 400px;
+  height: 450px;
   margin-top: 2rem;
   margin-bottom: 1rem;
   border-radius: 0.2rem;
@@ -62,7 +62,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   overflow: hidden;
   padding: 0 1rem;
@@ -276,15 +276,25 @@ img {
 }
 
 /* Facilities */
-.container {
-  max-width: 1200px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 1rem;
+
+.facilities-heading {
+  display: block;
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+  padding: 1.5rem;
+  background: black;
+  color: #fff;
 }
 
 .facilities {
   margin: 2rem 1rem;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
 }
 
 .facilities .container {
