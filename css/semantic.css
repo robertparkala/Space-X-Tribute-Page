@@ -19157,7 +19157,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
   background: #1B1C1D;
-  color: var(--third-color);
+  color: var(--fifth-color);
 }
 
 /* Nested */
