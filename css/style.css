@@ -446,6 +446,25 @@ img {
     justify-content: center;
   }
 
+  .facilities .container img {
+    height: 358px;
+  }
+
+  .facilities .container h1 {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+  
+  .facilities .container h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 200;
+  }
+
+  .facilities .container p {
+    font-size: 1.1rem;
+  } 
+
   .container .btn {
     position: absolute;
     top: 50%;
@@ -470,6 +489,11 @@ img {
 
   .section-footer .container {
     text-align: center;
+  }
+
+  .section-footer .container .btn-footer {
+    margin-top: 5px;
+  
   }
 }
 
