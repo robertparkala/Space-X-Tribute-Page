@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/a0c4f66859.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/semantic.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>SpaceX | Tribute Page</title>
@@ -15,7 +16,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="container">
+      <div class="container slideInDown">
         <h1 class="logo">SpaceX</h1>
         <ul class="nav">
           <li><a href="#about">About</a></li>
@@ -29,7 +30,7 @@
     <div class="ui vertical inverted stripe quote segment">
       <div class="ui equal width stackable internally celled grid">
         <div class="center aligned row">
-          <div class="column">
+          <div class="column slideInRight">
             <h3>
               "Persistence is very important. You should not give up unless you
               are forced to give up." -Elon Musk
@@ -43,7 +44,7 @@
     <section class="intro">
       <div class="container">
         <img class="intro-photo" src="img/spacex2.png" alt="" />
-        <button class="btn">Discover More</button>
+        <a href='https://www.spacex.com'><button class="btn active slideInRight">Discover More</button></a>
       </div>
     </section>
 
@@ -51,6 +52,7 @@
     <section id="about" class="section-a">
       <div class="container">
         <div>
+          <h1>Leader In Space Xploration</h1>
           <p>
             Space Exploration Technologies Corp. (SpaceX) is an American
             aerospace manufacturer and space transportation services company. It
@@ -208,7 +210,7 @@
         </div>
       </li>
       </ul>
-     
+
     <!-- Facilities -->
     <h2 id="facilities" class="ui horizontal divider header topplus50">
       <i class="fas fa-satellite-dish"></i>
@@ -254,25 +256,48 @@
             In addition to commercial satellite launches and space station resupply missions, LC-39A supports crew launches of the Dragon spacecraft.
           </p>
         </div>
+        <div>
+          <h2>CALIFORNIA</h2>
+          <h1>VANDENBERG AIR FORCE BASE, SPACE LAUNCH COMPLEX 4</h1>
+          <img src="img/california2.jpg" alt="" />
+          <p>
+            The site’s location on the California coastline provides customers with access to high inclination and polar orbits, 
+            frequently used by satellite communication constellations, defense intelligence and Earth-observing satellites
+          </p>
+        </div>
+        <div>
+          <h2>TEXAS</h2>
+          <h1>SOUTH TEXAS LAUNCH SITE</h1>
+          <img src="img/texas2.jpg" alt="" />
+          <p>SpaceX is building the world’s first commercial launch site designed for orbital missions in the Cameron County area of South Texas.
+             SpaceX’s build and launch site for its Starship test articles and spacecraft takes place here.</p>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="section-footer">
-        <div class="container">
-            <div>
-                <h2>Follow</h2>
-            </div>
-          <div>
-            <a href="http://twitter.com/thelunarcoder">
-              <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="http://facebook.com/robertparkala">
-              <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="http://instagram.com/thelunarcoder">
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
-          </div>
+      <div class="container">
+        <div>
+          <h2>Follow</h2>
+          <a href='https://www.facebook.com/robertparkala'><button class="ui facebook button"><i class="facebook icon"></i>Facebook</button></a>
+          <a href='https://www.twitter/thelunarcoder'><button class="ui twitter button"><i class="twitter icon"></i>Twitter</button></a>      
+          <a href='https://www.instagram/thelunarcoder'><button class="ui instagram button"><i class="instagram icon"></i>Instagram</button></a>
+          <a href='https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA'><button class="ui youtube button"><i class="youtube icon"></i>Youtube</button></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+      </script>
   </body>
 </html>

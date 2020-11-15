@@ -5211,7 +5211,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (min-width: 1200px) {
   .ui.container {
-    width: 1127px;
+    width: 1220px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -6847,7 +6847,7 @@ i.flag.zimbabwe:before {
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   padding: 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 1.28571429em;
   text-transform: none;
   color: var(--thrid-color);
@@ -28093,28 +28093,23 @@ Floated Menu / Item
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  justify-content: space-around;
   width: 290px;
   min-height: 0px;
-  background: #FFFFFF;
+  background: var(--third-color);
   padding: 0em;
-  border: none;
+  border: var(--third-color) 2px solid;
   border-radius: 0.28571429rem;
-  -webkit-box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
-  box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
-  -webkit-transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
-  transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
-  transition: box-shadow 0.1s ease, transform 0.1s ease;
-  transition: box-shadow 0.1s ease, transform 0.1s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   z-index: '';
 }
 
 .ui.card {
-  margin: 1em 0em;
+  margin: 1em 0.5em;
 }
 
 .ui.cards > .card a,
@@ -28123,7 +28118,8 @@ Floated Menu / Item
 }
 
 .ui.card:first-child {
-  margin-top: 0em;
+  margin: 1em 0.5em;
+  margin-left: 2rem;
 }
 
 .ui.card:last-child {
@@ -28227,7 +28223,7 @@ Floated Menu / Item
   -ms-flex-positive: 1;
   flex-grow: 1;
   border: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  border-top: 1px solid var(-fifth-color);
   background: none;
   margin: 0em;
   padding: 1em 1em;
