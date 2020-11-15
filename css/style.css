@@ -421,6 +421,9 @@ img {
     color: var(--secondary-color);
   }
   
+  .section-photo {
+    margin-bottom: 0;
+  }
 
   .section-a img {
     width: 100%;
