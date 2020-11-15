@@ -436,6 +436,12 @@ img {
     border-radius: 0.2rem;
     text-align: center;
   }
+
+  .section-footer .container .btn-footer {
+    margin-top: 5px;
+    width: 125px;
+    height: 36px;
+  }
 }
 
 /* Mobile */
@@ -493,7 +499,8 @@ img {
 
   .section-footer .container .btn-footer {
     margin-top: 5px;
-  
+    width: 125px;
+    height: 36px;
   }
 }
 
